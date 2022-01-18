@@ -5,6 +5,7 @@ import Avatar1 from '../assets/svg/avatar1.svg';
 import Avatar2 from '../assets/svg/avatar2.svg';
 import Avatar3 from '../assets/svg/avatar3.svg';
 import Container from './Container';
+import Gradient from './GradientText';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Avatar2 />
           <Avatar3 />
         </View>
+        <Gradient text={'gradient text'} />
       </SafeAreaView>
     </Container>
   );
@@ -23,6 +25,7 @@ const App = () => {
 
 const styles = StyleSheet.create({
   main: {
+    flex: 1,
     paddingTop: 30,
     alignItems: 'center',
     justifyContent: 'flex-start',
