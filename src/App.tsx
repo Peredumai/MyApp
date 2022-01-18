@@ -7,6 +7,11 @@ import Avatar3 from '../assets/svg/avatar3.svg';
 import Container from './Container';
 import Gradient from './GradientText';
 
+import {ANOTHER} from '@env';
+import {SOME_KEY} from '@env';
+
+console.log(ANOTHER);
+console.log(SOME_KEY);
 const App = () => {
   return (
     <Container>
